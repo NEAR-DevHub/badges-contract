@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Developer note: near.gitignore will be renamed to .gitignore upon project creation
+# dependencies
+**/node_modules
+/neardev
+/.pnp
+.pnp.js
+**/*.lock
+**/package-lock.json
+
+#cache
+.cache
+.parcel-cache
+
+#contracts
+target
+notes
+
+# testing
+/coverage
+
+# production
+/dist
+/out
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/nft-series/src/mainnet_commands.md
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

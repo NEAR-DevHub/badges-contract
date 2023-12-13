@@ -1,0 +1,10 @@
+{
+    "name": "devhub-badges",
+    "version": "1.0.0",
+    "description": "DevHub Badges",
+    "author": "Ben Kurrek & Joe Spano",
+    "license": "ISC",
+    "scripts": {
+        "build": "cd nft-series && bash build.sh && cd .."
+    }
+}
